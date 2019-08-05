@@ -65,16 +65,45 @@
 //     console.log('Yang anda masukan bukan ANGKA');
 // }
 
-var jmlAngkot = 10;
-var angkotBeroperasi = 6;
-var noAngkot = 1;
+// var jmlAngkot = 10;
+// var angkotBeroperasi = 6;
+// var noAngkot = 1;
 
-for (noAngkot =1; noAngkot <= jmlAngkot; noAngkot++) {
+// for (noAngkot =1; noAngkot <= jmlAngkot; noAngkot++) {
     
-    if (noAngkot <= angkotBeroperasi) {
-        console.log('Angko No.' +noAngkot+ ' beroperasi dengan baik.');
+//     if (noAngkot <= angkotBeroperasi) {
+//         console.log('Angko No.' +noAngkot+ ' beroperasi dengan baik.');
         
-    } else {
-        console.log('Angkot No. ' +noAngkot+ ' sedang tidak beroprasi.');
+//     } else {
+//         console.log('Angkot No. ' +noAngkot+ ' sedang tidak beroprasi.');
+//     }
+// }
+
+// var angka = prompt("Masukan Angka :");
+
+// switch(angka) {
+//     case '1' :
+//         alert('Angka anda 1');
+//         break;
+//     case '2' :
+//         alert('Angka anda 2');
+//         break;
+//     default :
+//         alert('angka yang anda masukan salah');
+// }
+
+// let a = 1;
+// let b = 10;
+
+// for (a=1;a <= b; a++) {
+//     console.log('Angka ke ' +a+ '');
+// }
+
+var s = '';
+for(var i = 0; i<= 10; i++) {
+    for(var j =0; j<= i; j++) {
+        s += '*';
     }
+    s += '\n';
 }
+console.log(s);
