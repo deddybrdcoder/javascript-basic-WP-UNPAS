@@ -99,11 +99,44 @@
 //     console.log('Angka ke ' +a+ '');
 // }
 
-var s = '';
-for(var i = 0; i<= 10; i++) {
-    for(var j =0; j<= i; j++) {
-        s += '*';
-    }
-    s += '\n';
+// var s = '';
+// for(var i = 0; i<= 10; i++) {
+//     for(var j =0; j<= i; j++) {
+//         s += '*';
+//     }
+//     s += '\n';
+// }
+// console.log(s);
+
+
+// function jumlahVolumeDuaKubus(a, b) {
+//     var volumeA;
+//     var volumeB;
+//     var total;
+
+//     volumeA = a * a * a;
+//     volumeB = b * b * b;
+
+//     total = volumeA + volumeB;
+
+//     return total;
+// }
+
+// console.log(jumlahVolumeDuaKubus(8, 3));
+// console.log(jumlahVolumeDuaKubus(10, 8));
+
+// function tampilAngka(n) {
+//     if (n === 0 ) return;
+//     console.log(n);
+//     return tampilAngka(n-1);
+// }
+
+// tampilAngka(10);
+ 
+
+function faktorial(n) {
+    if (n === 0) return 1;
+    return n * faktorial(n-1);
 }
-console.log(s);
+
+console.log(faktorial(5));
